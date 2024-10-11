@@ -1,11 +1,13 @@
 {
   "Counter-Strike 2": {
     "status": "Active",
+    "statusColor": [0.0, 1.0, 0.0],
     "lastUpdated": "2024-10-2",
     "version": "0.0.1"
   },
   "Deadlock": {
     "status": "Limited beta",
+    "statusColor": [1.0, 1.0, 0.0],
     "lastUpdated": "2024-10-11",
     "version": "0.1.1"
   }
