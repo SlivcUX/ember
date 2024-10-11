@@ -1,7 +1,7 @@
 {
   "Counter-Strike 2": {
-    "status": "Active",
-    "statusColor": [1.0, 0.5, 0.0],
+    "status": "Limited beta",
+    "statusColor": [1.0, 1.0, 0.0],
     "lastUpdated": "2024-10-2",
     "version": "0.0.1"
   },
