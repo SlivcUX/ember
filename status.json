@@ -1,5 +1,12 @@
 {
-  "status": "Updating",
-  "last_update": "2024-03-09",
-  "version": "0.0.2"
+  "Counter-Strike 2": {
+    "status": "On-Update",
+    "lastUpdated": "2024-01-15",
+    "version": "1.2.3"
+  },
+  "Deadlock": {
+    "status": "Limited beta",
+    "lastUpdated": "2024-01-10",
+    "version": "0.9.1"
+  }
 }
