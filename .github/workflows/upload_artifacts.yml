@@ -14,8 +14,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Download DLL
+        run: |
+          curl -L -o test.dll https://github.com/SlivcUX/ember/releases/download/da/test.dll
+
       - name: Upload DLLs as artifacts
-        uses: actions/upload-artifact@v3  # Updated to v3
+        uses: actions/upload-artifact@v3
         with:
           name: dll-artifacts
-          path: "https://github.com/SlivcUX/ember/releases/download/da/test.dll"
+          path: test.dll  # Path to the downloaded DLL
