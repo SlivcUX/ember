@@ -18,8 +18,8 @@ jobs:
         run: |
           curl -L -o test.dll https://github.com/SlivcUX/ember/releases/download/da/test.dll
 
-      - name: Upload DLLs as artifacts
+      - name: Upload DLL as artifact
         uses: actions/upload-artifact@v3
         with:
-          name: dll-artifacts
+          name: test-dll  # Name of the artifact
           path: test.dll  # Path to the downloaded DLL
