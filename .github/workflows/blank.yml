@@ -1,0 +1,21 @@
+name: Upload Artifacts
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Upload DLLs as artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: dll-artifacts
+          path: "https://github.com/SlivcUX/ember/releases/download/da/test.dll"
